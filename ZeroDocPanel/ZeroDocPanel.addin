@@ -6,11 +6,13 @@
     <Assembly>ZeroDocPanel.dll</Assembly>
     <FullClassName>ZeroDocPanel.Command</FullClassName>
     <ClientId>88505620-ee29-4a62-9cb1-5a93eb59d225</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
   </AddIn>
   <AddIn Type="Application">
     <Name>ZeroDocPanel</Name>
     <Assembly>ZeroDocPanel.dll</Assembly>
-    <ClientId>242b0437-e9f8-401f-8bf6-cf1a50086cc1</ClientId>
     <FullClassName>ZeroDocPanel.App</FullClassName>
+    <ClientId>242b0437-e9f8-401f-8bf6-cf1a50086cc1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
   </AddIn>
 </RevitAddIns>
