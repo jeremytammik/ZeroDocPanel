@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "Autodesk Inc." )]
 [assembly: AssemblyProduct( "Revit Add-In Template Application" )]
-[assembly: AssemblyCopyright( "Copyright 2010 © Jeremy Tammik Autodesk Inc." )]
+[assembly: AssemblyCopyright( "Copyright 2010-2018 © Jeremy Tammik Autodesk Inc." )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
 
@@ -32,5 +32,12 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion( "1.0.0.0" )]
-[assembly: AssemblyFileVersion( "1.0.0.0" )]
+//
+// History:
+// 
+// 2011-02-16 1.0.0.0 initial blog post and release for Revit 2012
+// 2018-09-11 problem described with Revit 2019 in https://forums.autodesk.com/t5/revit-api-forum/iscommandavailable-causes-nullref-exception/m-p/8259249
+// 2018-09-11 2019.0.0.0 flat migration to Revit 2019
+
+[assembly: AssemblyVersion( "2019.0.0.0" )]
+[assembly: AssemblyFileVersion( "2019.0.0.0" )]
